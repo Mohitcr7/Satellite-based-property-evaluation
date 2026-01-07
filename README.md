@@ -153,7 +153,7 @@ satellite-based-property-valuation/
 │
 ├── outputs/
 │   ├── predictions/
-│   │   └── submission_tabular_sentinel.csv
+│   │   └── 21110012_final.csv          # Final Predictions
 │   ├── shap/
 │   │   ├── 01_shap_summary.png
 │   │   ├── 02_shap_feature_importance.png
@@ -166,7 +166,7 @@ satellite-based-property-valuation/
 └── docs/
     ├── architecture_diagram.png        # System design
     ├── results_discussion.md           # Detailed results analysis
-    └── future_work.md                  # Next steps
+    └── 21110012_report.pdf             # Project Report
 ```
 
 ---
@@ -226,7 +226,7 @@ python src/modeling/predict.py
 
 ### Detailed Guides
 - **[Sentinel-2 Extraction](./src/satellite/sentinel_pipeline.md)**: Step-by-step guide for extracting neighborhood features
-- **[Results & Discussion](./docs/results_discussion.md)**: In-depth analysis of findings
+- **[Project Report](./docs/21110012_report.pdf)**: In-depth analysis of the Project
 - **[Architecture](./docs/architecture_diagram.png)**: System design and data flow
 
 ### Notebooks
